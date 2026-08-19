@@ -16,10 +16,8 @@ fetch('./data/latest.json')
       title.textContent = worldName;
       card.appendChild(title);
 
-      // 最新情報
       card.appendChild(renderEntry(worldData.latest, true));
 
-      // 過去履歴(折りたたみ)
       const details = document.createElement('details');
       const summary = document.createElement('summary');
       summary.textContent = `過去の履歴 (${worldData.history.length - 1}件)`;
@@ -34,6 +32,12 @@ fetch('./data/latest.json')
     });
   });
 
+  function buildItemLink(itemName) {
+    const searchName = itemName.replace(/※/g, '');
+    const url = `https://gvdb.mydns.jp/db/module/TradeDB/action/Search?name=${encodeURIComponent(searchName)}&type=&hint=漢字`;
+    return `<a href="${url}" target="_blank" rel="noopener noreferrer">${itemName}</a>`;
+  }
+
 function renderEntry(entry, isLatest) {
   const box = document.createElement('div');
   box.className = isLatest ? 'entry latest' : 'entry';
@@ -46,9 +50,11 @@ function renderEntry(entry, isLatest) {
   const grid = document.createElement('div');
   grid.className = 'item-grid';
   ITEM_LABELS.forEach((label, i) => {
+    const itemName = entry[`item${i + 1}`];
     const cell = document.createElement('div');
     cell.className = 'item-cell';
-    cell.innerHTML = `<span class="item-label">${label}</span><span class="item-value">${entry[`item${i + 1}`] || '-'}</span>`;
+    const valueHtml = itemName ? buildItemLink(itemName) : '-';
+    cell.innerHTML = `<span class="item-label">${label}</span><span class="item-value">${valueHtml}</span>`;
     grid.appendChild(cell);
   });
   box.appendChild(grid);

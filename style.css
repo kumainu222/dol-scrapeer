@@ -59,3 +59,21 @@ header { text-align: center; margin-bottom: 1.5rem; }
   #worlds { grid-template-columns: 1fr; }
   .item-grid { grid-template-columns: repeat(2, 1fr); }
 }
+
+.item-value a {
+    color: #1a6fbf;
+    text-decoration: none;
+  }
+  .item-value a:hover {
+    text-decoration: underline;
+  }
+  
+  .note {
+    margin-top: 1.5rem;
+    padding: 0.75rem 1rem;
+    background: #fff8e1;
+    border-left: 4px solid #f0b429;
+    font-size: 0.8rem;
+    color: #555;
+    border-radius: 4px;
+  }
