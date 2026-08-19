@@ -1,0 +1,26 @@
+{
+  "name": "dol-scrapeer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kumainu222/dol-scrapeer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/kumainu222/dol-scrapeer/issues"
+  },
+  "homepage": "https://github.com/kumainu222/dol-scrapeer#readme",
+  "dependencies": {
+    "axios": "^1.19.0",
+    "cheerio": "^1.2.0",
+    "iconv-lite": "^0.7.3"
+  }
+}

@@ -1,0 +1,15 @@
+# 依存パッケージ
+node_modules/
+
+# ログ
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# エディタ
+.vscode/*
+!.vscode/extensions.json
