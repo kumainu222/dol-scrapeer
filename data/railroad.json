@@ -1,0 +1,145 @@
+{
+  "updatedAt": "2026-08-19T09:17:11.661Z",
+  "entries": [],
+  "grandNavalBattle": {
+    "sourceUrl": "http://gvo.gamedb.info/wiki/?TranscontinentalRailroad#GrandNavalBattle",
+    "latest": {
+      "historicalEvent": "2026/08/04 21:00",
+      "calm": {
+        "astraios": "2026/08/12～2026/08/15",
+        "eos": null
+      },
+      "executed": {
+        "astraios": "2026/08/12～2026/08/23",
+        "eos": null
+      },
+      "result": {
+        "astraios": "2026/08/12～2026/08/23",
+        "astraiosNote": "期間終了まで大感謝祭延期",
+        "eos": null,
+        "eosNote": null
+      }
+    },
+    "history": [
+      {
+        "historicalEvent": "2026/08/04 21:00",
+        "calm": {
+          "astraios": null,
+          "eos": null
+        },
+        "executed": {
+          "astraios": null,
+          "eos": null
+        },
+        "result": {
+          "astraios": null,
+          "astraiosNote": null,
+          "eos": "2026/08/07～2026/08/09",
+          "eosNote": "歴史的事件「アルマダの海戦」  鉄道祭が空白日"
+        }
+      },
+      {
+        "historicalEvent": "2026/06/02 21:00",
+        "calm": {
+          "astraios": "2026/07/15～2026/07/18",
+          "eos": "2026/07/08～2026/07/11"
+        },
+        "executed": {
+          "astraios": "2026/07/15～2026/07/26",
+          "eos": "2026/07/08～2026/07/19"
+        },
+        "result": {
+          "astraios": "2026/07/15～2026/07/26",
+          "astraiosNote": "期間終了まで大感謝祭延期",
+          "eos": "2026/07/08～2026/07/19",
+          "eosNote": "期間終了まで大感謝祭延期"
+        }
+      },
+      {
+        "historicalEvent": "2026/06/02 21:00",
+        "calm": {
+          "astraios": "2026/06/17～2026/06/20",
+          "eos": "2026/06/10～2026/06/13"
+        },
+        "executed": {
+          "astraios": "2026/06/17～2026/06/28",
+          "eos": "2026/06/10～2026/06/21"
+        },
+        "result": {
+          "astraios": "2026/06/17～2026/06/28",
+          "astraiosNote": "期間終了まで大感謝祭延期",
+          "eos": "2026/06/10～2026/06/21",
+          "eosNote": "期間終了まで大感謝祭延期"
+        }
+      },
+      {
+        "historicalEvent": "2026/04/07 21:00",
+        "calm": {
+          "astraios": "2026/05/20～2026/05/23",
+          "eos": "2026/05/13～2026/05/16"
+        },
+        "executed": {
+          "astraios": "2026/05/20～2026/05/31",
+          "eos": "2026/05/13～2026/05/24"
+        },
+        "result": {
+          "astraios": "2026/05/20～2026/05/31",
+          "astraiosNote": "期間終了まで大感謝祭延期",
+          "eos": "2026/05/13～2026/05/24",
+          "eosNote": "期間終了まで大感謝祭延期"
+        }
+      },
+      {
+        "historicalEvent": "2026/04/07 21:00",
+        "calm": {
+          "astraios": "2026/04/22～2026/04/25",
+          "eos": "2026/04/15～2026/04/18"
+        },
+        "executed": {
+          "astraios": "2026/04/22～2026/05/03",
+          "eos": "2026/04/15～2026/04/26"
+        },
+        "result": {
+          "astraios": "2026/04/22～2026/05/03",
+          "astraiosNote": "期間終了まで大感謝祭延期",
+          "eos": "2026/04/15～2026/04/26",
+          "eosNote": "期間終了まで大感謝祭延期"
+        }
+      },
+      {
+        "historicalEvent": "2026/02/03 21:00",
+        "calm": {
+          "astraios": "2026/03/18～2026/03/21",
+          "eos": "2026/03/11～2026/03/14"
+        },
+        "executed": {
+          "astraios": "2026/03/18～2026/03/29",
+          "eos": "2026/03/11～2026/03/22"
+        },
+        "result": {
+          "astraios": "2026/03/18～2026/03/29",
+          "astraiosNote": "期間終了まで大感謝祭延期",
+          "eos": "2026/03/11～2026/03/14",
+          "eosNote": "大海戦静観 イベントに影響無し"
+        }
+      },
+      {
+        "historicalEvent": "2026/02/03 21:00",
+        "calm": {
+          "astraios": "2026/02/18～2026/02/21",
+          "eos": "2026/02/11～2026/02/14"
+        },
+        "executed": {
+          "astraios": "2026/02/18～2026/03/01",
+          "eos": "2026/02/11～2026/02/22"
+        },
+        "result": {
+          "astraios": "2026/02/18～2026/03/01",
+          "astraiosNote": "期間終了まで大感謝祭延期",
+          "eos": "2026/02/11～2026/02/22",
+          "eosNote": "期間中新金脈発見・鉄道祭が空白日"
+        }
+      }
+    ]
+  }
+}
