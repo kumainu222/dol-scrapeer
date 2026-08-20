@@ -1,6 +1,495 @@
 {
-  "updatedAt": "2026-08-19T09:17:11.661Z",
-  "entries": [],
+  "updatedAt": "2026-08-20T03:44:56.554Z",
+  "entries": [
+    {
+      "server": "Astraios",
+      "date": "前日緊急増資援助の場合2026/09/09(空白日) それ以外の場合  2026/09/09～2026/09/12  確定するまで以降日程は未確定",
+      "sortDate": "2026/09/09",
+      "eventName": "鉄道祭",
+      "location": "全鉄道",
+      "description": "前日緊急増資援助または大海戦期間中は1日空白日となりイベントは発生しない",
+      "details": null,
+      "sourceUrl": "http://gvo.gamedb.info/wiki/?TranscontinentalRailroad#schedule"
+    },
+    {
+      "server": "Astraios",
+      "date": "2026/09/08",
+      "sortDate": "2026/09/08",
+      "eventName": "鉄道重役 or  (緊急増資援助)",
+      "location": "サクラメント",
+      "description": null,
+      "details": null,
+      "sourceUrl": "http://gvo.gamedb.info/wiki/?TranscontinentalRailroad#schedule"
+    },
+    {
+      "server": "Astraios",
+      "date": "2026/09/08",
+      "sortDate": "2026/09/08",
+      "eventName": "旅商人",
+      "location": "ボストン",
+      "description": null,
+      "details": {
+        "treasureItem": "(No.2)",
+        "treasurePrice": "1M",
+        "consumable": "神秘の香辛料",
+        "consumablePrice": "10K",
+        "equipmentName": "メキシカンブーツ",
+        "equipmentEffect": "家畜+1",
+        "equipmentPrice": "100K"
+      },
+      "sourceUrl": "http://gvo.gamedb.info/wiki/?TranscontinentalRailroad#schedule"
+    },
+    {
+      "server": "Astraios",
+      "date": "2026/09/07",
+      "sortDate": "2026/09/07",
+      "eventName": "南蛮品到来",
+      "location": "サンフランシスコ",
+      "description": null,
+      "details": null,
+      "sourceUrl": "http://gvo.gamedb.info/wiki/?TranscontinentalRailroad#schedule"
+    },
+    {
+      "server": "Astraios",
+      "date": "2026/09/06",
+      "sortDate": "2026/09/06",
+      "eventName": "大富豪",
+      "location": "ボストン",
+      "description": null,
+      "details": {
+        "treasureItem": "(No.6)",
+        "treasurePrice": "1M",
+        "consumable": "投資申請書",
+        "consumablePrice": "1K",
+        "equipmentName": "ウエスタンブーツ",
+        "equipmentEffect": "保管+1",
+        "equipmentPrice": "100K"
+      },
+      "sourceUrl": "http://gvo.gamedb.info/wiki/?TranscontinentalRailroad#schedule"
+    },
+    {
+      "server": "Astraios",
+      "date": "2026/09/05",
+      "sortDate": "2026/09/05",
+      "eventName": "鉄道重役",
+      "location": "オマハ",
+      "description": null,
+      "details": null,
+      "sourceUrl": "http://gvo.gamedb.info/wiki/?TranscontinentalRailroad#schedule"
+    },
+    {
+      "server": "Astraios",
+      "date": "2026/09/01～2026/09/04",
+      "sortDate": "2026/09/01",
+      "eventName": "新金脈発見",
+      "location": "北米大陸西岸",
+      "description": "大海戦期間中は1日空白日となりイベントは発生しない。",
+      "details": null,
+      "sourceUrl": "http://gvo.gamedb.info/wiki/?TranscontinentalRailroad#schedule"
+    },
+    {
+      "server": "Astraios",
+      "date": "2026/08/31",
+      "sortDate": "2026/08/31",
+      "eventName": "旅商人",
+      "location": "オマハ",
+      "description": null,
+      "details": {
+        "treasureItem": "(No.3)",
+        "treasurePrice": "1M",
+        "consumable": "轟音弾",
+        "consumablePrice": "500",
+        "equipmentName": "ウエスタングローブ",
+        "equipmentEffect": "行軍+1",
+        "equipmentPrice": "100K"
+      },
+      "sourceUrl": "http://gvo.gamedb.info/wiki/?TranscontinentalRailroad#schedule"
+    },
+    {
+      "server": "Astraios",
+      "date": "2026/08/30",
+      "sortDate": "2026/08/30",
+      "eventName": "大富豪 or  (緊急増資援助)",
+      "location": "オマハ",
+      "description": null,
+      "details": {
+        "treasureItem": "(No.7)",
+        "treasurePrice": "1M",
+        "consumable": "鋼の砲弾",
+        "consumablePrice": "5K",
+        "equipmentName": "ワーキングキャップ",
+        "equipmentEffect": "雑貨+1",
+        "equipmentPrice": "140K"
+      },
+      "sourceUrl": "http://gvo.gamedb.info/wiki/?TranscontinentalRailroad#schedule"
+    },
+    {
+      "server": "Astraios",
+      "date": "2026/08/29",
+      "sortDate": "2026/08/29",
+      "eventName": "イベント＆NPCなし",
+      "location": null,
+      "description": "イベント＆NPCなし",
+      "details": null,
+      "sourceUrl": "http://gvo.gamedb.info/wiki/?TranscontinentalRailroad#schedule"
+    },
+    {
+      "server": "Astraios",
+      "date": "2026/08/28",
+      "sortDate": "2026/08/28",
+      "eventName": "旅商人",
+      "location": "サンフランシスコ",
+      "description": null,
+      "details": {
+        "treasureItem": "(No.1)",
+        "treasurePrice": "1M",
+        "consumable": "ハンザ同盟印章",
+        "consumablePrice": "5K",
+        "equipmentName": "警官の制帽",
+        "equipmentEffect": "統率+1",
+        "equipmentPrice": "100K"
+      },
+      "sourceUrl": "http://gvo.gamedb.info/wiki/?TranscontinentalRailroad#schedule"
+    },
+    {
+      "server": "Eos",
+      "date": "前日緊急増資援助の場合2026/08/26(空白日) それ以外の場合  2026/08/26～2026/08/29  確定するまで以降日程は未確定",
+      "sortDate": "2026/08/26",
+      "eventName": "鉄道祭",
+      "location": "全鉄道",
+      "description": "前日緊急増資援助または大海戦期間中は1日空白日となりイベントは発生しない",
+      "details": null,
+      "sourceUrl": "http://gvo.gamedb.info/wiki/?TranscontinentalRailroad#schedule"
+    },
+    {
+      "server": "Eos",
+      "date": "2026/08/25",
+      "sortDate": "2026/08/25",
+      "eventName": "鉄道重役 or  (緊急増資援助)",
+      "location": "サクラメント",
+      "description": null,
+      "details": null,
+      "sourceUrl": "http://gvo.gamedb.info/wiki/?TranscontinentalRailroad#schedule"
+    },
+    {
+      "server": "Eos",
+      "date": "2026/08/25",
+      "sortDate": "2026/08/25",
+      "eventName": "旅商人",
+      "location": "ボストン",
+      "description": null,
+      "details": {
+        "treasureItem": "(No.2)",
+        "treasurePrice": "1M",
+        "consumable": "神秘の香辛料",
+        "consumablePrice": "10K",
+        "equipmentName": "メキシカンブーツ",
+        "equipmentEffect": "家畜+1",
+        "equipmentPrice": "100K"
+      },
+      "sourceUrl": "http://gvo.gamedb.info/wiki/?TranscontinentalRailroad#schedule"
+    },
+    {
+      "server": "Astraios",
+      "date": "2026/08/24～2026/08/27",
+      "sortDate": "2026/08/24",
+      "eventName": "大感謝祭",
+      "location": "北米",
+      "description": "大海戦期間中は期間終了まで延期",
+      "details": null,
+      "sourceUrl": "http://gvo.gamedb.info/wiki/?TranscontinentalRailroad#schedule"
+    },
+    {
+      "server": "Eos",
+      "date": "2026/08/24",
+      "sortDate": "2026/08/24",
+      "eventName": "南蛮品到来",
+      "location": "サンフランシスコ",
+      "description": null,
+      "details": null,
+      "sourceUrl": "http://gvo.gamedb.info/wiki/?TranscontinentalRailroad#schedule"
+    },
+    {
+      "server": "Eos",
+      "date": "2026/08/23",
+      "sortDate": "2026/08/23",
+      "eventName": "大富豪",
+      "location": "ボストン",
+      "description": null,
+      "details": {
+        "treasureItem": "(No.6)",
+        "treasurePrice": "1M",
+        "consumable": "投資申請書",
+        "consumablePrice": "1K",
+        "equipmentName": "ウエスタンブーツ",
+        "equipmentEffect": "保管+1",
+        "equipmentPrice": "100K"
+      },
+      "sourceUrl": "http://gvo.gamedb.info/wiki/?TranscontinentalRailroad#schedule"
+    },
+    {
+      "server": "Eos",
+      "date": "2026/08/22",
+      "sortDate": "2026/08/22",
+      "eventName": "鉄道重役",
+      "location": "オマハ",
+      "description": null,
+      "details": null,
+      "sourceUrl": "http://gvo.gamedb.info/wiki/?TranscontinentalRailroad#schedule"
+    },
+    {
+      "server": "Astraios",
+      "date": "2026/08/19",
+      "sortDate": "2026/08/19",
+      "eventName": "大富豪",
+      "location": "サンフランシスコ",
+      "description": null,
+      "details": {
+        "treasureItem": "(No.5)",
+        "treasurePrice": "1M",
+        "consumable": "気付け薬",
+        "consumablePrice": "10K",
+        "equipmentName": "ワーキングベスト",
+        "equipmentEffect": "保管+1",
+        "equipmentPrice": "240K"
+      },
+      "sourceUrl": "http://gvo.gamedb.info/wiki/?TranscontinentalRailroad#schedule"
+    },
+    {
+      "server": "Astraios",
+      "date": "2026/08/18",
+      "sortDate": "2026/08/18",
+      "eventName": "陽気な採掘者",
+      "location": "ボストン",
+      "description": null,
+      "details": null,
+      "sourceUrl": "http://gvo.gamedb.info/wiki/?TranscontinentalRailroad#schedule"
+    },
+    {
+      "server": "Astraios",
+      "date": "2026/08/18",
+      "sortDate": "2026/08/18",
+      "eventName": "旅商人",
+      "location": "サクラメント",
+      "description": null,
+      "details": {
+        "treasureItem": "(No.4)",
+        "treasurePrice": "1M",
+        "consumable": "強欲商人の鉄鎖",
+        "consumablePrice": "3K",
+        "equipmentName": "警官の制服",
+        "equipmentEffect": "狙撃術+1",
+        "equipmentPrice": "240K"
+      },
+      "sourceUrl": "http://gvo.gamedb.info/wiki/?TranscontinentalRailroad#schedule"
+    },
+    {
+      "server": "Eos",
+      "date": "2026/08/18～2026/08/21",
+      "sortDate": "2026/08/18",
+      "eventName": "新金脈発見",
+      "location": "北米大陸西岸",
+      "description": "大海戦期間中は1日空白日となりイベントは発生しない。",
+      "details": null,
+      "sourceUrl": "http://gvo.gamedb.info/wiki/?TranscontinentalRailroad#schedule"
+    },
+    {
+      "server": "Astraios",
+      "date": "2026/08/17",
+      "sortDate": "2026/08/17",
+      "eventName": "イベント＆NPCなし",
+      "location": null,
+      "description": "イベント＆NPCなし",
+      "details": null,
+      "sourceUrl": "http://gvo.gamedb.info/wiki/?TranscontinentalRailroad#schedule"
+    },
+    {
+      "server": "Eos",
+      "date": "2026/08/17",
+      "sortDate": "2026/08/17",
+      "eventName": "旅商人",
+      "location": "オマハ",
+      "description": null,
+      "details": {
+        "treasureItem": "(No.3)",
+        "treasurePrice": "1M",
+        "consumable": "轟音弾",
+        "consumablePrice": "500",
+        "equipmentName": "ウエスタングローブ",
+        "equipmentEffect": "行軍+1",
+        "equipmentPrice": "100K"
+      },
+      "sourceUrl": "http://gvo.gamedb.info/wiki/?TranscontinentalRailroad#schedule"
+    },
+    {
+      "server": "Astraios",
+      "date": "2026/08/16",
+      "sortDate": "2026/08/16",
+      "eventName": "大富豪",
+      "location": "サクラメント",
+      "description": null,
+      "details": {
+        "treasureItem": "(No.8)",
+        "treasurePrice": "1M",
+        "consumable": "ラ・ピュセルの軍旗",
+        "consumablePrice": "3K",
+        "equipmentName": "採掘者の防護服",
+        "equipmentEffect": "探索+1",
+        "equipmentPrice": "240K"
+      },
+      "sourceUrl": "http://gvo.gamedb.info/wiki/?TranscontinentalRailroad#schedule"
+    },
+    {
+      "server": "Eos",
+      "date": "2026/08/16",
+      "sortDate": "2026/08/16",
+      "eventName": "大富豪 or  (緊急増資援助)",
+      "location": "オマハ",
+      "description": null,
+      "details": {
+        "treasureItem": "(No.7)",
+        "treasurePrice": "1M",
+        "consumable": "鋼の砲弾",
+        "consumablePrice": "5K",
+        "equipmentName": "ワーキングキャップ",
+        "equipmentEffect": "雑貨+1",
+        "equipmentPrice": "140K"
+      },
+      "sourceUrl": "http://gvo.gamedb.info/wiki/?TranscontinentalRailroad#schedule"
+    },
+    {
+      "server": "Eos",
+      "date": "2026/08/15",
+      "sortDate": "2026/08/15",
+      "eventName": "イベント＆NPCなし",
+      "location": null,
+      "description": "イベント＆NPCなし",
+      "details": null,
+      "sourceUrl": "http://gvo.gamedb.info/wiki/?TranscontinentalRailroad#schedule"
+    },
+    {
+      "server": "Eos",
+      "date": "2026/08/14",
+      "sortDate": "2026/08/14",
+      "eventName": "旅商人",
+      "location": "サンフランシスコ",
+      "description": null,
+      "details": {
+        "treasureItem": "(No.1)",
+        "treasurePrice": "1M",
+        "consumable": "ハンザ同盟印章",
+        "consumablePrice": "5K",
+        "equipmentName": "警官の制帽",
+        "equipmentEffect": "統率+1",
+        "equipmentPrice": "100K"
+      },
+      "sourceUrl": "http://gvo.gamedb.info/wiki/?TranscontinentalRailroad#schedule"
+    },
+    {
+      "server": "Astraios",
+      "date": "2026/08/12～2026/08/23",
+      "sortDate": "2026/08/12",
+      "eventName": "大海戦期間",
+      "location": "実施の場合",
+      "description": "水曜日(大海戦判定日)～翌週日曜日(大海戦最終日)",
+      "details": null,
+      "sourceUrl": "http://gvo.gamedb.info/wiki/?TranscontinentalRailroad#schedule"
+    },
+    {
+      "server": "Eos",
+      "date": "2026/08/10～2026/08/13",
+      "sortDate": "2026/08/10",
+      "eventName": "大感謝祭",
+      "location": "北米",
+      "description": "大海戦期間中は期間終了まで延期",
+      "details": null,
+      "sourceUrl": "http://gvo.gamedb.info/wiki/?TranscontinentalRailroad#schedule"
+    },
+    {
+      "server": "Eos",
+      "date": "2026/08/09",
+      "sortDate": "2026/08/09",
+      "eventName": "大富豪",
+      "location": "サンフランシスコ",
+      "description": null,
+      "details": {
+        "treasureItem": "(No.5)",
+        "treasurePrice": "1M",
+        "consumable": "気付け薬",
+        "consumablePrice": "10K",
+        "equipmentName": "ワーキングベスト",
+        "equipmentEffect": "保管+1",
+        "equipmentPrice": "240K"
+      },
+      "sourceUrl": "http://gvo.gamedb.info/wiki/?TranscontinentalRailroad#schedule"
+    },
+    {
+      "server": "Eos",
+      "date": "2026/08/08",
+      "sortDate": "2026/08/08",
+      "eventName": "陽気な採掘者",
+      "location": "ボストン",
+      "description": null,
+      "details": null,
+      "sourceUrl": "http://gvo.gamedb.info/wiki/?TranscontinentalRailroad#schedule"
+    },
+    {
+      "server": "Eos",
+      "date": "2026/08/08",
+      "sortDate": "2026/08/08",
+      "eventName": "旅商人",
+      "location": "サクラメント",
+      "description": null,
+      "details": {
+        "treasureItem": "(No.4)",
+        "treasurePrice": "1M",
+        "consumable": "強欲商人の鉄鎖",
+        "consumablePrice": "3K",
+        "equipmentName": "警官の制服",
+        "equipmentEffect": "狙撃術+1",
+        "equipmentPrice": "240K"
+      },
+      "sourceUrl": "http://gvo.gamedb.info/wiki/?TranscontinentalRailroad#schedule"
+    },
+    {
+      "server": "Eos",
+      "date": "2026/08/07",
+      "sortDate": "2026/08/07",
+      "eventName": "イベント＆NPCなし",
+      "location": null,
+      "description": "イベント＆NPCなし",
+      "details": null,
+      "sourceUrl": "http://gvo.gamedb.info/wiki/?TranscontinentalRailroad#schedule"
+    },
+    {
+      "server": "Eos",
+      "date": "2026/08/06",
+      "sortDate": "2026/08/06",
+      "eventName": "大富豪",
+      "location": "サクラメント",
+      "description": null,
+      "details": {
+        "treasureItem": "(No.8)",
+        "treasurePrice": "1M",
+        "consumable": "ラ・ピュセルの軍旗",
+        "consumablePrice": "3K",
+        "equipmentName": "採掘者の防護服",
+        "equipmentEffect": "探索+1",
+        "equipmentPrice": "240K"
+      },
+      "sourceUrl": "http://gvo.gamedb.info/wiki/?TranscontinentalRailroad#schedule"
+    },
+    {
+      "server": "Eos",
+      "date": "2026/08/04～2026/08/09",
+      "sortDate": "2026/08/04",
+      "eventName": "大海戦期間",
+      "location": "歴史的事件の場合",
+      "description": "偶数月第1火曜日(歴史的事件発生日)～日曜日(大海戦最終日)",
+      "details": null,
+      "sourceUrl": "http://gvo.gamedb.info/wiki/?TranscontinentalRailroad#schedule"
+    }
+  ],
   "grandNavalBattle": {
     "sourceUrl": "http://gvo.gamedb.info/wiki/?TranscontinentalRailroad#GrandNavalBattle",
     "latest": {

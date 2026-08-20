@@ -77,3 +77,180 @@ header { text-align: center; margin-bottom: 1.5rem; }
     color: #555;
     border-radius: 4px;
   }
+
+  .site-nav {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    padding: 0.75rem;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    margin: -1rem -1rem 1rem -1rem;
+  }
+  .site-nav a {
+    text-decoration: none;
+    color: #555;
+    font-size: 0.9rem;
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+  }
+  .site-nav a.active {
+    background: #eef6ff;
+    color: #1a6fbf;
+    font-weight: bold;
+  }
+  
+  main section { margin-bottom: 2rem; }
+  main h2 { font-size: 1.1rem; border-left: 4px solid #1a6fbf; padding-left: 0.5rem; }
+  
+  /* 鉄道イベント一覧 */
+  .railroad-entry {
+    background: #fff;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+    padding: 0.6rem 0.9rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  }
+  .railroad-entry.today { border: 2px solid #f0b429; }
+  .railroad-entry summary {
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    align-items: center;
+    font-size: 0.9rem;
+  }
+  .entry-date { font-weight: bold; color: #333; }
+  .entry-server {
+    font-size: 0.75rem;
+    padding: 0.1rem 0.4rem;
+    border-radius: 4px;
+    color: #fff;
+  }
+  .server-Astraios { background: #6a5acd; }
+  .server-Eos { background: #2a9d8f; }
+  .entry-name { font-weight: 600; }
+  .entry-location { color: #777; font-size: 0.85rem; }
+  .badge {
+    background: #f0b429;
+    color: #333;
+    font-size: 0.7rem;
+    padding: 0.05rem 0.4rem;
+    border-radius: 10px;
+  }
+  .entry-body { margin-top: 0.6rem; font-size: 0.85rem; color: #444; }
+  .detail-grid { display: flex; flex-direction: column; gap: 0.3rem; }
+  .detail-label {
+    display: inline-block;
+    min-width: 90px;
+    color: #888;
+    font-size: 0.75rem;
+  }
+  .source-link {
+    display: inline-block;
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    color: #1a6fbf;
+  }
+  
+  /* 大海戦 */
+  .gnb-card {
+    background: #fff;
+    border-radius: 8px;
+    padding: 0.9rem;
+    margin-bottom: 0.6rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  }
+  .gnb-card.gnb-latest {
+    border: 2px solid #1a6fbf;
+    padding: 1.2rem;
+  }
+  .gnb-date { font-weight: bold; margin-bottom: 0.5rem; }
+  .gnb-row { display: flex; gap: 0.8rem; font-size: 0.85rem; margin: 0.2rem 0; }
+  .gnb-row-label { min-width: 90px; color: #888; }
+  .gnb-note { margin-top: 0.5rem; font-size: 0.8rem; color: #d9822b; }
+  
+  #gnb-history { margin-top: 0.5rem; }
+
+  .entry-date-note {
+    font-size: 0.8rem;
+    color: #999;
+    margin: 0 0 0.4rem 0;
+  }
+
+  .filters {
+    background: #fff;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 0.75rem;
+    align-items: end;
+  }
+  .filter-group { display: flex; flex-direction: column; font-size: 0.8rem; }
+  .filter-group label { color: #777; margin-bottom: 0.2rem; }
+  .filter-group input, .filter-group select {
+    padding: 0.4rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 0.85rem;
+  }
+  #reset-filters {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    background: #f5f5f5;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8rem;
+  }
+  
+  #result-count { color: #777; font-size: 0.85rem; margin: 0.5rem 0; }
+  
+  .quest-entry {
+    background: #fff;
+    border-radius: 8px;
+    margin-bottom: 0.4rem;
+    padding: 0.5rem 0.8rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  }
+  .quest-entry summary {
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+    font-size: 0.85rem;
+  }
+  .quest-guild {
+    background: #eef6ff; color: #1a6fbf;
+    font-size: 0.7rem; padding: 0.1rem 0.4rem; border-radius: 4px;
+  }
+  .quest-city { color: #555; }
+  .quest-name { color: #1a6fbf; font-weight: 600; text-decoration: none; }
+  .quest-name:hover { text-decoration: underline; }
+  .quest-dest { color: #444; }
+  .quest-category { margin-left: auto; color: #888; font-size: 0.75rem; }
+  .quest-sheets { font-size: 0.75rem; color: #d9822b; }
+  
+  .bq-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.1rem; height: 1.1rem;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 0.65rem;
+    margin-left: 0.3rem;
+  }
+  .cq-badge {
+    display: inline-block;
+    background: #fff3cd;
+    color: #8a6100;
+    font-size: 0.7rem;
+    padding: 0.05rem 0.35rem;
+    border-radius: 4px;
+    margin-left: 0.3rem;
+  }
+  
+  .quest-body { margin-top: 0.5rem; font-size: 0.8rem; }

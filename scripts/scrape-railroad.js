@@ -63,7 +63,7 @@ async function main() {
   // 「南蛮品到来は...ランダムで選ばれる。」を含むaタグから、
   // その親ul(スケジュール説明)の直後にあるテーブルを取得
   const $anchor = $('a:contains("南蛮品到来は南蛮貿易の港固有の追加貿易品からランダムで選ばれる")');
-  const $table = $anchor.closest('ul').next('div.ie5').find('table');
+  const $table = $anchor.closest('ul.list1').next('div.ie5').find('table');
 
   const grid = normalizeTable($, $table);
 

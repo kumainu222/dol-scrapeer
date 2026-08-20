@@ -2,8 +2,8 @@ name: Scrape and Update
 
 on:
   schedule:
-    - cron: '0 * * * *'   # 毎時0分に実行(UTC基準)
-  workflow_dispatch:        # 手動実行ボタンを使えるようにする
+    - cron: '0 * * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -21,11 +21,13 @@ jobs:
       - run: npm install axios cheerio iconv-lite
 
       - run: node scripts/scrape.js
+      - run: node scripts/scrape-railroad.js
+      - run: node scripts/scrape-quests.js
 
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/latest.json
+          git add data/latest.json data/railroad.json data/quests.json
           git diff --staged --quiet || git commit -m "chore: update scraped data"
           git push

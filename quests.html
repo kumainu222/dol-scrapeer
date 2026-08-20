@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>カテゴリー集めクエスト一覧</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="site-nav">
+    <a href="index.html">希少交易品</a>
+    <a href="railroad.html">横断鉄道・大海戦</a>
+    <a href="quests.html" class="active">カテゴリークエスト</a>
+  </nav>
+  <header>
+    <h1>カテゴリー集めクエスト一覧</h1>
+    <p id="updated"></p>
+  </header>
+
+  <main>
+    <section class="filters">
+      <div class="filter-group">
+        <label>クエスト名・品物 検索</label>
+        <input type="text" id="search-text" placeholder="例: 洋書、麻生地" />
+      </div>
+      <div class="filter-group">
+        <label>ギルド</label>
+        <select id="filter-guild"><option value="">すべて</option></select>
+      </div>
+      <div class="filter-group">
+        <label>配送先</label>
+        <select id="filter-destination"><option value="">すべて</option></select>
+      </div>
+      <div class="filter-group">
+        <label>カテゴリー</label>
+        <select id="filter-category"><option value="">すべて</option></select>
+      </div>
+      <button id="reset-filters">条件クリア</button>
+    </section>
+
+    <p id="result-count"></p>
+    <div id="quest-list"></div>
+  </main>
+
+  <script src="quests.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>横断鉄道イベント・大海戦予定</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="site-nav">
+    <a href="index.html">希少交易品</a>
+    <a href="railroad.html" class="active">横断鉄道・大海戦</a>
+  </nav>
+  <header>
+    <h1>横断鉄道イベント・大海戦予定</h1>
+    <p id="updated"></p>
+  </header>
+
+  <main>
+    <section>
+      <h2>大海戦期間予定</h2>
+      <div id="gnb-latest"></div>
+      <details id="gnb-history-wrap">
+        <summary id="gnb-history-summary">過去の履歴</summary>
+        <div id="gnb-history"></div>
+      </details>
+    </section>
+
+    <section>
+      <h2>鉄道イベントスケジュール</h2>
+      <div id="railroad-list"></div>
+    </section>
+  </main>
+
+  <script src="railroad.js"></script>
+</body>
+</html>
