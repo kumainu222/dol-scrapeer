@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>南蛮貿易 持出し品売却先</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="site-nav">
+    <a href="index.html">希少交易品</a>
+    <a href="nanban.html" class="active">南蛮貿易</a>
+    <a href="railroad.html">横断鉄道・大海戦</a>
+    <a href="quests.html">カテゴリークエスト</a>
+  </nav>
+  <header>
+    <h1>南蛮貿易 持出し品売却先</h1>
+    <p id="updated"></p>
+  </header>
+
+  <main>
+    <section class="filters">
+      <div class="filter-group" style="flex:2;">
+        <label>交易品名で検索</label>
+        <input type="text" id="search-text" placeholder="例: シェリー、羊皮紙" />
+      </div>
+      <div class="filter-group">
+        <label>文化圏</label>
+        <select id="filter-area">
+          <option value="">すべて</option>
+          <option value="日本">日本</option>
+          <option value="台湾">台湾</option>
+          <option value="朝鮮">朝鮮</option>
+          <option value="華南">華南</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label>種別</label>
+        <select id="filter-category"><option value="">すべて</option></select>
+      </div>
+      <button id="clear-selection">選択をクリア</button>
+    </section>
+
+    <div class="nanban-layout">
+      <section class="item-picker">
+        <h2>持出し交易品を選択</h2>
+        <div id="item-checklist"></div>
+      </section>
+
+      <section class="item-results">
+        <h2>売却先の目安</h2>
+        <div id="combined-summary"></div>
+        <div id="result-list"></div>
+      </section>
+    </div>
+
+    <details class="legend">
+      <summary>記号の意味</summary>
+      <ul id="legend-list"></ul>
+    </details>
+  </main>
+
+  <script src="nanban.js"></script>
+</body>
+</html>
